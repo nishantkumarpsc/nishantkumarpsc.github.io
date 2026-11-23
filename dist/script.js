@@ -1,1 +1,6 @@
-m«ëˆ§½©buªàºg§µØ¬·û®*mŽÅ,j›jÇºà7an{¦Š)ßŠW¨¢ë_ŠW›n·š‘ºÞjG§r‡^v‹­¦ën¦)í¢X§zÊ•éà¶î˜7]yÊy×œ¡×¢ž›­†¥¥Ø¬¦V²¶¬™ë,j¢Šzn¶)éº×â•ç^}«¥µú+²×bžŠ.¶›­¢ëiº×â•ç^}«¥µú+²×hº
+document.getElementById("year").textContent = new Date().getFullYear();
+
+for (const link of document.querySelectorAll('a[href^="http"]')) {
+  link.target = "_blank";
+  link.rel = "noopener noreferrer";
+}
